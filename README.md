@@ -1,23 +1,21 @@
 # Parth Portfolio Application
 
-  Some COntent
+> This is a Ruby on Rails 6 application that allows users to create their own portfolio
 
-Things you may want to cover:
+### Features
+- Real time chat engine for comments
+- Blog
+- Portfolio
+- Drag and drop interface
 
-* Ruby version
+### Code Example
+```ruby
+def my_greate_method
+	puts "here it is"
+end
+```
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```javascript
+alert('i There');
+end
+```
