@@ -19,7 +19,7 @@ puts "5 skills created"
 	Portfolio.create!(
 	  title: "Portfolio title: #{portfolio_item}",
 	  subtitle: "My Great Service",
-	  body: "Hey This is something in Seeds File",
+	  body: "Hey This is  Seeds File",
 	  main_image: "http://placehold.it/600x400",
 	  thumb_image: "http://placehold.it/350x250"
 	)
