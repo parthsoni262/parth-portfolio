@@ -9,5 +9,4 @@ module DeviseWhitelist
 	devise_parameter_sanitizer.permit(:sign_up, keys: [:name])
 	devise_parameter_sanitizer.permit(:accounts_update, keys: [:name])
   end
-
 end
