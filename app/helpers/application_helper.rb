@@ -15,9 +15,7 @@ module ApplicationHelper
      content_tag(:p, greeting, class: "source-greeting")
    end  
   end
-
-
-
+  
   def copyright_generator
     ParthViewTool::Renderer.copyright 'Parth Soni', 'All rights reserved'
   end
