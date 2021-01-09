@@ -15,7 +15,7 @@
 
           <div class="form-group">
             <%= f.label :name %><br>
-            <%= f.text_field :name, class: 'form-control' , class: 'form-control'%>
+            <%= f.text_field :name, class: 'form-control'%>
           </div>
 
           <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
@@ -57,13 +57,5 @@
     <div class="auth-links">
       <%= link_to "Back", :back %>
     </div>   
-    
-
   </div>
 </div>
-
-
-
-
-
-
