@@ -30,7 +30,7 @@ puts "5 skills created"
 	  subtitle: "Ruby on Rails",
 	  body: "Hey This is  Seeds File",
 	  main_image: "http://placehold.it/600x400",
-	  thumb_image: "http://placehold.it/350x250"
+	  thumb_image: "http://placehold.it/350x200"
 	)
 end
 
@@ -40,7 +40,7 @@ end
 	  subtitle: "Angular",
 	  body: "Hey This is  Seeds File",
 	  main_image: "http://placehold.it/600x400",
-	  thumb_image: "http://placehold.it/350x250"
+	  thumb_image: "http://placehold.it/350x200"
 	)
 end
 
