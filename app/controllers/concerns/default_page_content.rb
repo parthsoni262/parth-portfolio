@@ -9,3 +9,4 @@ module DefaultPageContent
     @seo_keywords = "Parth Soni Portfolio"
   end
 end
+

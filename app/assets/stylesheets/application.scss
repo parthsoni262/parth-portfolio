@@ -162,12 +162,12 @@ body {
 }
 
 /*
- * Custom Styles
- */
-
+* Custom Styles
+*/
 .card-block{
   color: black;
   text-align: left;
+  padding: 10px;
 }
 
 .auth-links a {
@@ -181,23 +181,8 @@ body {
 .login > .card {
   width: 22rem;
   margin: 0 auto;
-  float : none;
+  float: none;
+}  
+.sendme{
+  width:330px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
