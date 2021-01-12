@@ -15,12 +15,23 @@
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body class ="home-background">
+  <body>
+    <!--class ="home-background"-->
+
     <div class="site-wrapper">
       <div class="site-wrapper-inner">    
         <div class="cover-container">
 
-          <div ></div>
+          <%= video_tag(
+           'f1.mp4',
+           id: 'background',
+           :height => "100%",
+           :width => "100%", 
+           :autoplay => true, 
+           :loop => true
+        
+
+          )%>
 
           <%= render "shared/application_nav" %>
               
