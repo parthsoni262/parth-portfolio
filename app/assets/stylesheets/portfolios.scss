@@ -1,11 +1,19 @@
 @import "bootstrap";
 @import "jquery-ui";
+
+
+/*
+ *= require jquery-ui
+ */
+
+
 body {
   min-height: 75rem; /* Can be removed; just added for demo purposes */
 }
 
-.navbar {
+.nav {
   margin-bottom: 0;
+  background-color: black;
 
 }
 
