@@ -15,10 +15,12 @@
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
+  <body class ="home-background">
     <div class="site-wrapper">
       <div class="site-wrapper-inner">    
         <div class="cover-container">
+
+          <div ></div>
 
           <%= render "shared/application_nav" %>
               
@@ -28,7 +30,7 @@
 
           <%= source_helper("Application")  %>
 
-          <%= @copyright %>
+         
         </div>
       </div>
     </div>
