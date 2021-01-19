@@ -31,9 +31,8 @@ class BlogsController < ApplicationController
   # POST /blogs.json
   def create
     @blog = Blog.new(blog_params)
-    #@user.books.save
     respond_to do |format|
-      if @blog.blogs.save
+      if @blog.save
         format.html { redirect_to @blog, notice: 'Blog was successfully created.' }
       else
         format.html { render :new }
