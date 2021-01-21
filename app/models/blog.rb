@@ -12,4 +12,12 @@ class Blog < ApplicationRecord
   def self.special_blog
   	all
   end
+
+  def self.featured_blogs
+  	limit(2)
+  end
+
+  def self.recent
+    order("created_at DESC")
+  end
 end
