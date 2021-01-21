@@ -81,3 +81,7 @@ gem 'gritter', '~> 1.2'
 gem 'twitter', '~> 7.0'
 
 gem 'redis', '~> 4.2', '>= 4.2.5'
+
+gem 'redcarpet', '~> 3.5', '>= 3.5.1'
+
+gem 'coderay', '~> 1.1', '>= 1.1.3'
