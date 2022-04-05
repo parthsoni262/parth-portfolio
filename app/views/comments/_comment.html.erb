@@ -8,12 +8,11 @@
     	  <div class="col-md-10">
     	    <div>
               <%= comment.content %>    
-            </div>
+          </div>
 
-            <div class="comment-attribution">
-              Comment Posted By <span class="comment-name"> <%= comment.user.first_name %></span> <%= distance_of_time_in_words(comment.created_at, Time.now) %> Ago
-            </div>
-            
+          <div class="comment-attribution">
+            Comment Posted By <span class="comment-name"> <%= comment.user.first_name %></span><%= distance_of_time_in_words(comment.created_at, Time.now) %> Ago
+          </div>
     	  </div>	
     	</div>
     </div>
